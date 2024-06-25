@@ -13,25 +13,13 @@ A CLI that encrypts and decrypts png, jpg, jpeg images to a gibberish image and 
 ## Installation
 
 ```sh
-npm i -g imcrypt
+git clone https://github.com/dhranamanthan/Image_encryption.git
 ```
 
 ## Usage
 
-```sh
-imcrypt <command> [option]
 ```
-
-or run it directly using npx
-
-```sh
-npx imcrypt <command> [option]
-```
-
-### commands
-
-```sh
-help  #prints help info
+node .\index.js help
 ```
 
 ### options
@@ -54,7 +42,7 @@ Command
 ### For encrypting an image myImage.png to encryptedImage.png and saving the key to key.txt
 
 ```sh
-imcrypt -e myImage.png -i encryptedImageName.png -p keyFile.txt
+ node .\index.js -e .\myImage.png    
 ```
 
 output
@@ -82,7 +70,7 @@ An image encryption node-js cli
 ### For decrypting an image encryptedImage.png with its key key.txt to decryptedImage.png
 
 ```sh
-imcrypt -d encryptedImage.png -k key.txt -i decryptedImage.png
+node .\index.js -d .\myImage_encrypted.jpeg -k .\myImage_key.txt 
 ```
 
 output
