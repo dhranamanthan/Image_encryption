@@ -1,12 +1,8 @@
-# Imcrypt
+# Image-encryption-decryption
 
 A CLI that encrypts and decrypts png, jpg, jpeg images to a gibberish image and provides you the key to unlock it later so that you have the complete control of your images.
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/theninza/imcrypt?style=for-the-badge)&nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/theninza/imcrypt?logo=github&style=for-the-badge)
-![npm](https://img.shields.io/npm/dt/imcrypt?style=for-the-badge&logo=npm)
-
-## Tech-Stack
+## Tech-used
 
 ![Node](https://img.shields.io/badge/NodeJS-05122A?style=for-the-badge&logo=node.js)&nbsp;
 
